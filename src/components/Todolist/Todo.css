@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Container for input and button */
+  .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  
+  /* Input Field */
+  input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Add Button */
+  button:nth-child(2) {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button:nth-child(2):hover {
+    background-color: #218838;
+  }
+  
+  /* Delete Button */
+  li button {
+    background-color: #dc3545;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Todo List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
