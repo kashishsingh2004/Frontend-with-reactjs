@@ -1,5 +1,6 @@
 {
   "name": "project",
+<<<<<<< HEAD
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "license": "ISC",
@@ -16,6 +17,28 @@
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4"
+=======
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cra-template": "1.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+>>>>>>> 469094b06820d023739763233a314c1f0dd2f753
   },
   "browserslist": {
     "production": [
@@ -28,5 +51,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "web-vitals": "^4.2.4"
+>>>>>>> 469094b06820d023739763233a314c1f0dd2f753
   }
 }
